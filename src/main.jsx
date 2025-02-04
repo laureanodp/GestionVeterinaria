@@ -8,7 +8,7 @@ import { Tema }          from './themes/tema';
 
 
 createRoot(document.getElementById("root")).render(
-  // <StrictMode>
+   <StrictMode>
    <Provider store={store}>
     <BrowserRouter>
     <Tema>
@@ -16,6 +16,6 @@ createRoot(document.getElementById("root")).render(
     </Tema>
     </BrowserRouter>
    </Provider>
-  // </StrictMode>
+  </StrictMode>
 );
 
